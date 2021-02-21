@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Müzik</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+         <style>
+           
+             h3{
+                 text-align: center;
+             }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+}
+
+            th, td {
+                padding: 30px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+}
+                body{ background: #ddd; margin: 0; padding: 0; }
+		.container{ width: 1200px; margin: 0 auto; background: #f0f0f0; }
+		
+                
+           footer{
+                
+                width: 100%;
+                bottom: 0;
+                padding: 15px;
+                font-size: 17px;
+                font-weight: bold;
+                text-align: center;
+                background: #333;
+                color: white;
+                font-family: Arial;
+                letter-spacing: 1px;
+}
+        </style>
+         
+    </h:head>
+    
+    <h:body>
+        
+    <div class="custom-padding">
+        <nav>
+            <div class="Logo"><a href="index.xhtml">E-BİLET</a></div>
+            <ul class="menu-area">
+                <li>
+                    <a href="#">Sahne</a>
+                     <ul>
+                        <li><a href="sahne.xhtml">Tiyatro</a></li>
+                        <li><a href="sahne.xhtml">Dans</a></li>
+                        <li><a href="sahne.xhtml">Stand-up</a></li>
+                      </ul>
+                </li>
+                    
+                <li>
+                    <a href="#">Müzik</a>
+                    <ul>
+                        <li><a href="müzik.xhtml">Klasik</a></li>
+                        <li><a href="müzik.xhtml">Rock</a></li>
+                        <li><a href="müzik.xhtml">Pop</a></li>
+                        <li><a href="müzik.hxtml">Caz</a></li>
+                    </ul>
+                </li>
+                    
+                     <li>
+                        <a href="spor.xhtml">Spor</a>
+                           
+                    </li>
+                    <li>
+                        <a href="müze.xhtml">Müze</a>
+                    </li>
+                
+                    <li><a href="#">Giriş Yap</a></li>
+                    
+                </ul>    
+         </nav>
+     </div>
+        <br></br><br></br><br></br>
+        <h3><b>Tüm etkinlikler aşağıda yer almaktadır!</b></h3>
+        <br></br>
+        
+    <div class="container">
+        <table>
+  <tr>
+    <th></th>
+    <th>Etkinlik</th>
+    <th>Mekan</th>
+    <th>Tarih</th>
+  </tr>
+  <tr>
+    
+    <td><img src="https://www.biletix.com/static/images/live/event/eventimages/incesazzzzzZBQ14.png" alt="müzik"  height="110" width="200"/> </td>
+    <td><a href="incesaz.xhtml">Alkışlarla Yaşatıyoruz: İncesaz, Zeki Müren Özel Repertuvarı</a></td>
+    <td>Grand Pera Emek Sahnesi</td>
+    <td>25/05/20</td>
+  </tr>
+  <tr>
+      <td><img src="https://www.biletix.com/static/images/live/event/eventimages/ZZE04_gorsel.png" alt="müzik"  height="110" width="200"/></td>
+    <td><a href="#">Avrupa'dan Anadoluya Aşk Ezgileri</a></td>
+    <td>Gökyay Vakfı Satranç Müzesi</td>
+    <td>26/05/20</td>
+  </tr>
+  <tr>
+    <td><img src="data:image/jpeg;base64,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" alt="müzik"  height="110" width="200"/></td>
+    <td><a href="#">Moğollar ve Bulutsuzluk Özlemi</a></td>
+    <td>Fişekhane Ana Sahne</td>
+    <td>27/05/20</td>
+  </tr>
+  <tr>
+    <td><img src="https://image.istanbul.net.tr/uploads/2019/01/event/arctic-monkeys-tribute.jpg" alt="müzik"  height="110" width="200"/></td>
+    <td><a href="#">Arctic Monkeys Tribute</a></td>
+    <td>IF Performance HALL</td>
+    <td>25/05/20</td>
+  </tr>
+  <tr>
+    <td><img src="https://www.biletix.com/static/images/live/event/eventimages/aloloco-Z0A53.png" alt="müzik"  height="110" width="200"/></td>
+    <td><a href="#">A Lo Loco</a></td>
+    <td>Hayal Kahvesi Emaar</td>
+    <td>29/05/20</td>
+  </tr>
+</table>
+    
+   </div>
+         
+<br></br><br></br><br></br>
+          
+    <footer>
+         ALL RIGHT RESERVED BY E-BILET
+    </footer>
+    
+        
+    </h:body>
+</html>

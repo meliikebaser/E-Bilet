@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 Nis 2020, 16:05:25
+    Author     : user
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+
+.menu-area li a{
+    text-decoration: none; 
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 65px;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+    
+}
+.menu-area li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    
+}
+.custom-padding{
+    padding-top: 25px;
+    
+}
+nav{
+    position: relative;
+    padding: 20px 70px 20px 20px;
+    text-align: right;
+    z-index: 1;
+    background: #333;
+    margin: auto;
+      
+}
+.Logo{
+    width: 15%;
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 2%; 
+    text-decoration: none;
+}
+.Logo a:hover{
+    color:#fff;
+}
+.menu-area li a:hover{
+    background: tomato;    
+}
+
+.menu-area li ul{
+    
+    display: none;
+    position: absolute;
+    text-decoration: none;
+    background: #333;
+  
+    text-align: left;
+    border-radius: 4px 4px 4px 4px;
+    
+}
+.menu-area li:hover ul{
+    display: block;
+}
+.menu-area li ul li {
+    width: 220px;
+    border-radius: 4px;   
+}
+
+
+.menu-area input[type=text]{
+    padding: 4px;
+    margin-top: 8px;
+    border: none;
+    font-size: 12px;
+}
+
+
+/*Showcase*/
+#showcase{
+	min-height:400px;
+	background:url('../img/showcase.jpg') no-repeat;
+	text-align:center;
+	color:#ffffff;
+}
+#showcase h1{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;
+	
+}
+#showcase p{
+	font-size:20px;
+}
+
